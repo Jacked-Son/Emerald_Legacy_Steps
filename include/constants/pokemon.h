@@ -71,6 +71,10 @@
 #define NATURE_QUIRKY   24
 #define NUM_NATURES     25
 
+// Flag value for Hidden Natures
+#define MON_DATA_NATURE            90
+#define MON_DATA_HIDDEN_NATURE     91
+
 // Pokémon Stats
 #define STAT_HP      0
 #define STAT_ATK     1
