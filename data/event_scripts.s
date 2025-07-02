@@ -748,6 +748,7 @@ Common_EventScript_StopBrineysBoatMusic::
 
 @ Below could be split as ferry.inc aside from the Rusturf tunnel script
 Common_EventScript_FerryDepart::
+	hidefollower
 	delay 60
 	applymovement VAR_0x8004, Movement_FerryDepart
 	waitmovement 0
@@ -800,6 +801,7 @@ Movement_UnusedBoardFerry:
 	step_end
 
 Common_EventScript_FerryDepartIsland::
+	hidefollower
 	call_if_eq VAR_FACING, DIR_SOUTH, Ferry_EventScript_DepartIslandSouth
 	call_if_eq VAR_FACING, DIR_WEST, Ferry_EventScript_DepartIslandWest
 	delay 30
