@@ -150,6 +150,7 @@ static void VBlankCB(void)
     TransferPlttBuffer();
 }
 
+/*
 void CB2_InitOptionMenu(void)
 {
     switch (gMain.state)
@@ -255,7 +256,7 @@ void CB2_InitOptionMenu(void)
         return;
     }
 }
-
+*/
 static void Task_OptionMenuFadeIn(u8 taskId)
 {
     if (!gPaletteFade.active)
