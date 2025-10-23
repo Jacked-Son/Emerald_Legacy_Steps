@@ -739,6 +739,7 @@ const u8 gText_MenuOptionBag[] = _("BAG");
 const u8 gText_MenuOptionPokenav[] = _("POKéNAV");
 const u8 gText_Blank[] = _("");
 const u8 gText_MenuOptionSave[] = _("SAVE");
+const u8 gText_OptionMenuSave[] = _("SAVE");
 const u8 gText_MenuOptionOption[] = _("OPTION");
 const u8 gText_MenuOptionExit[] = _("EXIT");
 const u8 gText_5BP[] = _("  5BP");
