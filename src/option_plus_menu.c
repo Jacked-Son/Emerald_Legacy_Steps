@@ -725,7 +725,7 @@ void CB2_InitOptionPlusMenu(void)
 
         //sOptions->sel_world[MENUITEM_WORLD_BIKEMUSIC]   = gSaveBlock2Ptr->optionsBikeMusic;
         //sOptions->sel_world[MENUITEM_WORLD_SURFMUSIC]   = gSaveBlock2Ptr->optionsSurfMusic;
-        sOptions->sel_world[MENUITEM_WORLD_MONOVERWORLD]   = !FlagGet(FLAG_HIDE_FOLLOWER);
+        sOptions->sel_world[MENUITEM_WORLD_MONOVERWORLD]   = FlagGet(FLAG_HIDE_FOLLOWER);
         //sOptions->sel_world[MENUITEM_WORLD_SURFOVERWORLD]   = gSaveBlock2Ptr->optionsSurfOverworld;
 
         sOptions->submenu = MENU_MAIN;
