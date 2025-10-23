@@ -38,7 +38,6 @@
 #include "wild_encounter.h"
 #include "constants/metatile_behaviors.h"
 #include "bike.h"
-#include "debug.h"
 #include "constants/event_object_movement.h"
 #include "constants/abilities.h"
 #include "constants/battle.h"
