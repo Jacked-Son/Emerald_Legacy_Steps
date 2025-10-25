@@ -54,6 +54,8 @@ EverGrandeCity_PokemonLeague_1F_Pokemart:
 	.2byte ITEM_TM_HAIL
 	.2byte ITEM_TM_FRUSTRATION
 	.2byte ITEM_TM_RETURN
+	.2byte ITEM_MAX_ETHER
+	.2byte ITEM_MAX_ELIXIR
 	.2byte ITEM_NONE
 	release
 	end
