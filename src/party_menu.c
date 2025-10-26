@@ -4985,7 +4985,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
 
     if (GetMonData(mon, MON_DATA_LEVEL) != MAX_LEVEL)
     // && !levelCappedNuzlocke(GetMonData(mon, MON_DATA_LEVEL)))
-    && !(FlagGet(FLAG_NUZLOCKE) && GetMonData(mon, MON_DATA_DEAD)))
+    && !(FlagGet(FLAG_NUZLOCKE) && GetMonData(mon, MON_DATA_DEAD))
     {
         BufferMonStatsToTaskData(mon, arrayPtr);
         cannotUseEffect = ExecuteTableBasedItemEffect_(gPartyMenu.slotId, *itemPtr, 0);
