@@ -4983,7 +4983,7 @@ void ItemUseCB_RareCandy(u8 taskId, TaskFunc task)
     u16 *itemPtr = &gSpecialVar_ItemId;
     bool8 cannotUseEffect;
 
-    if ((GetMonData(mon, MON_DATA_LEVEL) != MAX_LEVEL
+    if (GetMonData(mon, MON_DATA_LEVEL) != MAX_LEVEL)
     // && !levelCappedNuzlocke(GetMonData(mon, MON_DATA_LEVEL)))
     && !(FlagGet(FLAG_NUZLOCKE) && GetMonData(mon, MON_DATA_DEAD)))
     {
