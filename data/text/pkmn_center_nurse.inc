@@ -54,7 +54,7 @@ gText_Nurse_CannotHeal::
     .string "Oh! I'm sorry, but I can't heal\n"
     .string "your POKéMON right now.\p"
     .string "All the regional POKéMON CENTERS\n"
-    .string "are rationing electricity.\p"
+    .string "are experiencing a power shortage.\p"
     .string "We must conserve power for the\n"
     .string "TRAINERS who need healing most.\p"
     .string "Please try another POKéMON CENTER\n"
