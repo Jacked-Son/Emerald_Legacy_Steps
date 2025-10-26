@@ -8,6 +8,7 @@ Common_EventScript_PkmnCenterNurse::
 	msgbox gText_WouldYouLikeToRestYourPkmn, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_PkmnCenterNurse_Goodbye
 	goto_if_eq VAR_RESULT, YES, EventScript_PkmnCenterNurse_HealPkmn
+	return
 
 EventScript_PkmnCenterNurse_Goodbye::
 	message gText_WeHopeToSeeYouAgain
@@ -123,8 +124,8 @@ EventScript_PkmnCenterNurse_GoldCardHealPkmn::
 	return
 
 Movement_PkmnCenterNurse_Turn:
-  walk_in_place_faster_left
-  step_end
+  	walk_in_place_faster_left
+  	step_end
 
 Movement_PkmnCenterNurse_Bow:
 	nurse_joy_bow
