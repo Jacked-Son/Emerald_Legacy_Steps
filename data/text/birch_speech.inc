@@ -69,7 +69,7 @@ gText_Birch_YourePlayer::
 gText_Birch_PowerRumor::
     .string "Oh, {PLAYER}{KUN}, have you heard the\n"
     .string "rumors about the Mauville Power\p"
-	.string "Plant generator?...$"
+	.string "Plant's main generator?...$"
 
 gText_Birch_PowerYes::
     .string "I see... Then the POKéMON CENTERS will be\n"
