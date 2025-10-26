@@ -29,7 +29,7 @@ EverGrandeCity_PokemonCenter_1F_EventScript_Nurse::
 EverGrande_DoHeal:
     call Common_EventScript_PkmnCenterNurse
 
-    goto_if_unset FLAG_HEALING DONE, EverGrande_End
+    goto_if_unset FLAG_HEALING_DONE, EverGrande_End
 
     copyvar VAR_POKECENTER_PREV, VAR_POKECENTER_LAST
     setvar VAR_POKECENTER_LAST, 2       @ Ever Grande = 2
