@@ -278,7 +278,7 @@
 #define VAR_POKECENTER_LAST                              0x4102 // Tracks most recently used Pokecenter
 #define VAR_POKECENTER_PREV                              0x4103 // Tracks the previous Pokecenter used
 
-#define VARS_END                                         0x4103
+#define VARS_END                                         0x4104
 #define VARS_COUNT                                       (VARS_END - VARS_START + 1)
 
 #define SPECIAL_VARS_START            0x8000
